@@ -32,7 +32,7 @@ const MessageForm = (props) => {
     <form className="message-form" onSubmit={handleSubmit}>
       <input
         className="message-input"
-        placeholder="Send a message..."
+        placeholder="Escribe el mensaje..."
         value={value}
         onChange={handleChange}
         onSubmit={handleSubmit}
