@@ -9,7 +9,7 @@ const Modal = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const authObject = { 'Project-ID': '8ffca965-7cf9-4932-93ac-cd44ef65a721', 'User-Name': username, 'User-Secret': password };
+    const authObject = { 'Project-ID': '96c09f0b-66cf-4698-91c0-5c7795001995', 'User-Name': username, 'User-Secret': password };
 
     try {
       await axios.get('https://api.chatengine.io/chats', { headers: authObject });
